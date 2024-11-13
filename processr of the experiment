@@ -1,0 +1,24 @@
+step by step process:
+
+
+* select the Arduino. Uno board in tools, and also select the port:"com8"
+
+* go to sketch in Arduino> go to include library >extract the cvzone.zip file.
+
+* just go to files > select the examples > select the cvzone > select the Get.Led.
+
+* now just verify the code and just upload it .
+ 
+
+    Now python process:
+     
+   * Write the code according to the serial port number of the Arduino in visual studio.
+   
+(note : the code has been provided in the name of FaceDetection.Module.python.py )
+ 
+    Match the serial port number 
+  
+in python have to write the line :
+     # Initialize serial connection
+   arduino = serial.Serial('COM8', 9600, timeout=1)
+   time.sleep(2)  # Wait for connection to establish 

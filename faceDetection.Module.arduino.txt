@@ -1,0 +1,24 @@
+void setup() {
+  pinMode(13, OUTPUT);  // Green LED
+  pinMode(12, OUTPUT);  // Red LED
+  Serial.begin(9600);   // Match baud rate with Python script
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char receivedChar = Serial.read();  // Read the incoming byte as a character
+
+    // Debugging: print received data to Serial Monitor
+    Serial.print("Received: ");
+    Serial.println(receivedChar);
+
+    // Control LEDs based on received data
+    if (receivedChar == '1') {
+      digitalWrite(13, HIGH);   // Turn on Green LED
+      digitalWrite(12, LOW);    // Turn off Red LED
+    } else if (receivedChar == '0') {
+      digitalWrite(13, LOW);    // Turn off Green LED
+      digitalWrite(12, HIGH);   // Turn on Red LED
+    }
+  }
+}

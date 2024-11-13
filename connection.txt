@@ -1,0 +1,13 @@
+connection  :
+  
+  first the GND in Arduino to the negative in the board
+   
+  place the ohm resistor 
+  
+  connect the negative of the  green light led light to the resistor(with the help of jumper wires) 
+ 
+  connect the positive terminal of the green light to the 13 pin in the Arduino. Uno(with the help of jumper wires)
+  
+  connect the negative of the red light to the resistor (with the help of jumper wires)
+   
+  connect the positive terminal of the red light to the 12 in the Arduino.Uno  (with the help of jumper wires)

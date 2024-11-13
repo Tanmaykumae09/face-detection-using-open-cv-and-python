@@ -1,0 +1,13 @@
+Components of the project
+  
+    *Arduino.Uno 
+     
+    *bread board
+    
+    *220 ohm resistor
+     
+    *jumper wires -3 wires required
+    
+    *led lights 
+    
+    *usb cable 
