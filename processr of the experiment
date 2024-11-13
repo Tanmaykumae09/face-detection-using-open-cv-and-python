@@ -25,3 +25,7 @@ in python have to write the line :
  Mainly install all the libraries in visulal studio
 go to terminal : write the line as mention below
 PS C:\Users\Tanmay kumar> pip install cvzone opencv-python mediapipe serial pyserial
+
+ Aftet a successful code run
+the camera in the laptop will open 
+it will Detect your Faces with Square box Around the face with Percentage .
